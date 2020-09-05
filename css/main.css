@@ -1,0 +1,16 @@
+body{
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.horizontal-scroll-wrapper {
+  min-width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+  }
+
+.horizontal-scroll-wrapper img {
+  min-width: 50%;
+}
