@@ -1,4 +1,4 @@
-body{
+body {
   border: 0;
   padding: 0;
   margin: 0;
@@ -6,11 +6,19 @@ body{
 
 .horizontal-scroll-wrapper {
   min-width: 100%;
-  overflow-x: scroll;
-  overflow-y: hidden;
   display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
   }
 
+.horizontal-scroll-wrapper.frame {
+  flex: 0 0 50%;
+}
+
 .horizontal-scroll-wrapper img {
-  min-width: 50%;
+  flex: 0 0 50%;
+}
+
+.frame p{
+  padding: 10em;
 }
